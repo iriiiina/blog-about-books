@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Permian;
+  src: url("../assets/font/permian-sans-typeface.otf");
+}
+
+body {
+  font-family: Permian;
+}
