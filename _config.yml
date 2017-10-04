@@ -1,3 +1,3 @@
 name: Blog about Books
 markdown: kramdown
-permalink: /:year/:month/:day/:title
+permalink: /books-blog/:year/:month/:day/:title
