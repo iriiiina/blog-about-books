@@ -1,3 +1,4 @@
 name: Blog about Books
 markdown: kramdown
+url: http://localhost:4000
 permalink: /books-blog/:year/:month/:day/:title

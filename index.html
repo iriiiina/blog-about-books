@@ -2,10 +2,29 @@
 layout: default
 title: Книги и переплёты
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+<header>
+	<img class="header-image" src="assets/images/header.jpg">
+</header>
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<h1>{{ page.title }}</h1>
+
+<div class="posts">
+	{% for post in site.posts %}
+	<div class="post">
+		<div class="post-preview">
+			<a href="{{ post.url }}" title="{{ post.title }}">
+				<img class="post-preview-image" src="assets/post-images/{{ post.preview-image }}">
+			</a>
+		</div>
+		<div class="post-title">
+			<a class="post-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</div>
+		<div class="post-date">
+			{{ post.date | date: "%-d.%m.%Y" }}
+		</div>
+		<div class="post-short-content">
+			{{ post.content }}
+		</div>
+	</div>
+	{% endfor %}
+</div>
