@@ -1,2 +1,4 @@
 .DS_Store
 _site/
+css/.sass-cache
+css/style.css.map

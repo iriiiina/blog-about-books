@@ -1,4 +1,4 @@
-name: Блог про книгу, как объект
+name: Книго-ориентированный блог
 markdown: kramdown
 url: https://iriiiina.github.io/blog-about-books/
 permalink: /blog-about-books/:year/:month/:day/:title
