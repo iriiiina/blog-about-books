@@ -1,4 +1,4 @@
-name: Blog about Books
+name: Блог про книгу, как объект
 markdown: kramdown
-url: http://localhost:4000
-permalink: /books-blog/:year/:month/:day/:title
+url: https://iriiiina.github.io/blog-about-books/
+permalink: /blog-about-books/:year/:month/:day/:title
