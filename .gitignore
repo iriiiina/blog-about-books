@@ -1,4 +1,8 @@
 .DS_Store
 _site/
 css/.sass-cache
-css/style.css.map
+css/common.css.map
+css/blog.css.map
+css/post.css.map
+_posts/
+assets/post-images/

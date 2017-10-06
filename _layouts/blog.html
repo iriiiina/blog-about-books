@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/blog.css">
+		<link rel="icon" href="assets/images/favicon.ico">
+	</head>
+	<body>
+
+		{% include header.html %}
+
+		{{ content }}
+
+		{% include footer.html %}

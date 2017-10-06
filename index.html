@@ -1,29 +1,22 @@
 ---
-layout: default
+layout: blog
 title: Книго-ориентированный блог
 ---
-<header>
-	<img class="header-image" src="assets/images/header.jpg">
-</header>
-
-<h1>{{ site.name }}</h1>
 
 <div class="posts">
 	{% for post in site.posts %}
 	<div class="post">
-		<div class="post-preview">
-			<a href="{{ post.url }}" title="{{ post.title }}">
-				<img class="post-preview-image" src="assets/post-images/{{ post.preview-image }}">
-			</a>
+		<a href="{{ post.url }}" title="{{ post.title }}">
+			<img class="preview-image" src="assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg">
+		</a>
+		<div class="title">
+			<a class="title-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		</div>
-		<div class="post-title">
-			<a class="post-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<div class="excerpt">
+			{{ post.excerpt }}
 		</div>
-		<div class="post-date">
+		<div class="date">
 			{{ post.date | date: "%-d.%m.%Y" }}
-		</div>
-		<div class="post-short-content">
-			{{ post.content }}
 		</div>
 	</div>
 	{% endfor %}

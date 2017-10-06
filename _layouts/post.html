@@ -1,8 +1,38 @@
----
-layout: default
----
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
+		<link rel="icon" href="assets/images/favicon.ico">
+	</head>
+	<body>
 
-<p class="meta">{{ page.date | date_to_string }}</p>
+		{% include header.html %}
 
-{{ content }}
+    <div class="back">
+      <a href="{{ site.url }}"><< Назад в блог</a>
+    </div>
+
+    <div class="post">
+      <h2>{{ page.title }}</h2>
+
+      <p class="date">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</p>
+
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="navigation">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url }}"><< Предыдущий пост</a>
+      {% endif %}
+      <a href="{{ site.url }}">Назад в блог</a>
+      {% if page.next.url %}
+      <a href="{{ page.next.url}}">Следующий пост >></a>
+      {% endif %}
+    </div>
+
+    {% include footer.html %}
