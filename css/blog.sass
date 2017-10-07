@@ -4,16 +4,21 @@
   text-align: center
 
   .post
-    width: 30%
-    margin: 40px 5px 0 5px
+    width: 90%
+    margin: 20px auto 20px auto
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     display: inline-block
     vertical-align: top
+    @media screen and (min-width: $break-small)
+      width: 30%
+      margin: 40px 5px 0 5px
 
     .preview-image
       width: 100%
-      &:hover
-        opacity: 0.7
+      @media screen and (min-width: $break-small)
+        transition: opacity 0.5s
+        &:hover
+          opacity: 0.7
 
     .title
       text-align: left
@@ -22,8 +27,10 @@
       .title-link
         text-decoration: none
         font-size: 20px
-        &:hover
-          color: $color-orange
+        @media screen and (min-width: $break-small)
+          transition: color 0.3s
+          &:hover
+            color: $color-orange
 
     .excerpt
       margin: 10px 0 0 0

@@ -6,9 +6,11 @@
     text-decoration: none
 
 .post
-  width: 60%
+  width: 90%
   margin: 40px auto 0 auto
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  @media screen and (min-width: $break-small)
+    width: 60%
   h2
     text-align: center
     padding: 20px 0 20px 0
@@ -18,15 +20,22 @@
     font-size: 14px
     padding: 0 20px 10px 20px
   .content
-    margin: 10px 100px 10px 100px
+    margin: 10px 20px 10px 20px
+    @media screen and (min-width: $break-medium)
+      margin: 10px 100px 10px 100px
     padding: 0 0 20px 0
   img
+    max-width: 100%
     display: block
     margin: 0 auto 0 auto
+    @media screen and (min-width: $break-medium)
+      max-width: 700px
 
 .navigation
   text-align: center
   margin: 50px auto 30px auto
   a
-    margin: 0 50px 0 50px
+    margin: 0 5px 0 5px
     text-decoration: none
+    @media screen and (min-width: $break-small)
+      margin: 0 50px 0 50px

@@ -11,8 +11,11 @@ body {
 
 a {
   color: #212121; }
-  a:hover {
-    color: #FFC107; }
+  @media screen and (min-width: 768px) {
+    a {
+      transition: color 0.3s; }
+      a:hover {
+        color: #FFC107; } }
 
 .header-image {
   width: 100%; }
@@ -28,10 +31,16 @@ footer {
   footer a {
     color: #CFD8DC;
     text-decoration: none; }
+    @media screen and (min-width: 768px) {
+      footer a {
+        transition: color 0.3s; } }
   footer #github {
     width: 30px;
     fill: #CFD8DC; }
-    footer #github:hover {
-      fill: #FFC107; }
+    @media screen and (min-width: 768px) {
+      footer #github {
+        transition: color 0.3s; }
+        footer #github:hover {
+          fill: #FFC107; } }
 
 /*# sourceMappingURL=common.css.map */

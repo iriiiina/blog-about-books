@@ -2,6 +2,8 @@ $font: Permian
 $color-dark-gray: #212121
 $color-light-gray: #CFD8DC
 $color-orange: #FFC107
+$break-small: 768px
+$break-medium: 1024px
 
 @font-face
   font-family: Permian
@@ -17,8 +19,10 @@ body
 
 a
   color: $color-dark-gray
-  &:hover
-    color: $color-orange
+  @media screen and (min-width: $break-small)
+    transition: color 0.3s
+    &:hover
+      color: $color-orange
 
 .header-image
   width: 100%
@@ -34,8 +38,12 @@ footer
   a
     color: $color-light-gray
     text-decoration: none
+    @media screen and (min-width: $break-small)
+      transition: color 0.3s
   #github
     width: 30px
     fill: $color-light-gray
-    &:hover
-      fill: $color-orange
+    @media screen and (min-width: $break-small)
+      transition: color 0.3s
+      &:hover
+        fill: $color-orange

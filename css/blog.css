@@ -11,8 +11,11 @@ body {
 
 a {
   color: #212121; }
-  a:hover {
-    color: #FFC107; }
+  @media screen and (min-width: 768px) {
+    a {
+      transition: color 0.3s; }
+      a:hover {
+        color: #FFC107; } }
 
 .header-image {
   width: 100%; }
@@ -28,32 +31,48 @@ footer {
   footer a {
     color: #CFD8DC;
     text-decoration: none; }
+    @media screen and (min-width: 768px) {
+      footer a {
+        transition: color 0.3s; } }
   footer #github {
     width: 30px;
     fill: #CFD8DC; }
-    footer #github:hover {
-      fill: #FFC107; }
+    @media screen and (min-width: 768px) {
+      footer #github {
+        transition: color 0.3s; }
+        footer #github:hover {
+          fill: #FFC107; } }
 
 .posts {
   text-align: center; }
   .posts .post {
-    width: 30%;
-    margin: 40px 5px 0 5px;
+    width: 90%;
+    margin: 20px auto 20px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
     vertical-align: top; }
+    @media screen and (min-width: 768px) {
+      .posts .post {
+        width: 30%;
+        margin: 40px 5px 0 5px; } }
     .posts .post .preview-image {
       width: 100%; }
-      .posts .post .preview-image:hover {
-        opacity: 0.7; }
+      @media screen and (min-width: 768px) {
+        .posts .post .preview-image {
+          transition: opacity 0.5s; }
+          .posts .post .preview-image:hover {
+            opacity: 0.7; } }
     .posts .post .title {
       text-align: left;
       padding: 10px 20px 0 20px; }
       .posts .post .title .title-link {
         text-decoration: none;
         font-size: 20px; }
-        .posts .post .title .title-link:hover {
-          color: #FFC107; }
+        @media screen and (min-width: 768px) {
+          .posts .post .title .title-link {
+            transition: color 0.3s; }
+            .posts .post .title .title-link:hover {
+              color: #FFC107; } }
     .posts .post .excerpt {
       margin: 10px 0 0 0;
       text-align: left;
