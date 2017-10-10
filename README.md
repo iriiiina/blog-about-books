@@ -10,26 +10,12 @@
 
 <img src="https://simpleicons.org/icons/protonmail.svg" width="30"> [irina.ivanova@protonmail.com](mailto:irina.ivanova@protonmail.com)
 
-## Технические детали
+## Как это сделано
 
-### Статичный блог, с использованием:
-
-<img src="https://simpleicons.org/icons/github.svg" width="30"> [GitHub Pages](https://pages.github.com)
-
-<img src="https://simpleicons.org/icons/jekyll.svg" width="30"> [Jekyll](https://jekyllrb.com)
-
-<img src="https://simpleicons.org/icons/sass.svg" width="30"> [Sass](http://sass-lang.com)
-
-<img src="https://simpleicons.org/icons/html5.svg" width="30"> [HTML 5](https://www.w3.org/TR/html5/)
-
-<img src="https://simpleicons.org/icons/css3.svg" width="30"> [CSS 3](https://www.w3schools.com/css/css3_intro.asp)
-
-### Графические элементы:
-
-<img src="https://simpleicons.org/icons/simpleicons.svg" width="30"> [Simple Icons](https://simpleicons.org)
-
-### Организаторские штуки:
-
-<img src="https://simpleicons.org/icons/trello.svg" width="30"> [Trello](https://trello.com)
-
-<img src="https://simpleicons.org/icons/atom.svg" width="30"> [Atom](https://atom.io)
+| **Технологии** | **Дизайн** | **Организация** |
+| -------------- | ---------- | --------------- |
+| <img src="https://simpleicons.org/icons/github.svg" width="30"> [GitHub Pages](https://pages.github.com) | <img src="https://simpleicons.org/icons/simpleicons.svg" width="30"> [Simple Icons](https://simpleicons.org) | <img src="https://simpleicons.org/icons/trello.svg" width="30"> [Trello](https://trello.com) |
+| <img src="https://simpleicons.org/icons/jekyll.svg" width="30"> [Jekyll](https://jekyllrb.com) | | <img src="https://simpleicons.org/icons/atom.svg" width="30"> [Atom](https://atom.io) |
+| <img src="https://simpleicons.org/icons/sass.svg" width="30"> [Sass](http://sass-lang.com) | | |
+| <img src="https://simpleicons.org/icons/html5.svg" width="30"> [HTML 5](https://www.w3.org/TR/html5/) | | |
+| <img src="https://simpleicons.org/icons/css3.svg" width="30"> [CSS 3](https://www.w3schools.com/css/css3_intro.asp) | | |
