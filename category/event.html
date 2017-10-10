@@ -1,0 +1,25 @@
+---
+layout: blog
+title: Книго-ориентированный блог
+---
+
+<div class="posts">
+	{% for post in site.posts %}
+    {% if post.categories contains "event" %}
+	   <div class="post">
+		   <a href="{{ post.url }}" title="{{ post.title }}">
+			   <img class="preview-image" src="../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg">
+		   </a>
+		   <div class="title">
+			   <a class="title-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		   </div>
+		   <div class="excerpt">
+			   {{ post.excerpt }}
+		   </div>
+		   <div class="date">
+			   {{ post.date | date: "%-d.%m.%Y" }}
+		   </div>
+	   </div>
+    {% endif %}
+	{% endfor %}
+</div>

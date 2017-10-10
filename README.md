@@ -6,6 +6,10 @@
 
 [https://iriiiina.github.io/blog-about-books](https://iriiiina.github.io/blog-about-books)
 
+или
+
+[http://book.irina-ivanova.eu](http://book.irina-ivanova.eu)
+
 Личный блог [Ирины Ивановой](https://irina-ivanova.gitlab.io) про книгу, как физический объект (с обложкой, переплётом, форзацем и всё такое).
 
 ## Технические детали

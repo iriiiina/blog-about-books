@@ -1,5 +1,5 @@
 name: Книго-ориентированный блог
 markdown: kramdown
-url: https://iriiiina.github.io/blog-about-books/
-#url: http://localhost:4000
+#url: https://iriiiina.github.io/blog-about-books/
+url: http://localhost:4000
 permalink: /blog-about-books/:year/:month/:day/:title

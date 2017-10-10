@@ -1,0 +1,11 @@
+- code: all
+  name_ru: все
+
+- code: event
+  name_ru: событие
+
+- code: restoration
+  name_ru: реставрация
+
+- code: talk
+  name_ru: разговор

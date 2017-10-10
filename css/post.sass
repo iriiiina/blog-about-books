@@ -9,7 +9,7 @@
   width: 90%
   margin: 40px auto 0 auto
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  @media screen and (min-width: $break-small)
+  @media screen and (min-width: $break-medium)
     width: 60%
   h2
     text-align: center
@@ -28,14 +28,19 @@
     max-width: 100%
     display: block
     margin: 0 auto 0 auto
-    @media screen and (min-width: $break-medium)
-      max-width: 700px
 
 .navigation
   text-align: center
-  margin: 50px auto 30px auto
+  padding: 20px 0 20px 0
+  margin: 30px auto 50px auto
+  background-color: $color-orange
+  width: 90%
+  @media screen and (min-width: $break-medium)
+    width: 60%
   a
     margin: 0 5px 0 5px
     text-decoration: none
     @media screen and (min-width: $break-small)
       margin: 0 50px 0 50px
+      &:hover
+        color: white
