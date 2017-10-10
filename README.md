@@ -1,3 +1,5 @@
+[![Licence](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENCE)
+
 # Книго-ориентированный блог
 
 **NB! Блог еще не готов!**
