@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<title>{{ page.title }}</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/blog.css">
-		<link rel="icon" href="assets/images/favicon.ico">
+		<link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
+
+		<link rel="alternate" type="application/rss+xml" title="Лента книго-ориентированного блога" href="{{ site.url }}/atom.xml" />
+
+		<title>{{ page.title }}</title>
 	</head>
 	<body>
 
 		{% include header.html %}
+
+		{% include category.html %}
 
 		{{ content }}
 

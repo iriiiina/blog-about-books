@@ -1,0 +1,23 @@
+<div class="categories">
+	<span class="category"><a id="all" href="{{ site.url }}">все</a></span>
+	<span class="category"><a id="event" href="{{ site.url }}/category/event">событие</a></span>
+	<span class="category"><a id="restoration" href="{{ site.url }}/category/restoration">реставрация</a></span>
+	<span class="category"><a id="talk" href="{{ site.url }}/category/talk">разговор</a></span>
+</div>
+
+<script>
+if (window.location.href == "{{ site.url }}/") {
+  document.getElementById("all").style.color = "#FFC107";
+  document.getElementById("all").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/event") {
+  document.getElementById("event").style.color = "#FFC107";
+  document.getElementById("event").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/restoration") {
+  document.getElementById("restoration").style.color = "#FFC107";
+  document.getElementById("restoration").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/talk") {
+  document.getElementById("talk").style.color = "#FFC107";
+  document.getElementById("talk").style.borderColor = "#FFC107";
+}
+
+</script>

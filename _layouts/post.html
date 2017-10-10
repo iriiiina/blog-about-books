@@ -19,6 +19,7 @@
       <h2>{{ page.title }}</h2>
 
       <p class="date">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</p>
+			<p class="category">Категории: {{ page.categories | join: ", " }}</p>
 
       <div class="content">
         {{ content }}

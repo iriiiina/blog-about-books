@@ -31,16 +31,14 @@ footer {
   footer a {
     color: #CFD8DC;
     text-decoration: none; }
-    @media screen and (min-width: 768px) {
-      footer a {
-        transition: color 0.3s; } }
-  footer #github {
+  footer .icon {
     width: 30px;
-    fill: #CFD8DC; }
+    fill: #CFD8DC;
+    margin: 0 5px 0 5px; }
     @media screen and (min-width: 768px) {
-      footer #github {
+      footer .icon {
         transition: color 0.3s; }
-        footer #github:hover {
+        footer .icon:hover {
           fill: #FFC107; } }
 
 .back {
@@ -62,7 +60,13 @@ footer {
   .post .date {
     text-align: right;
     font-size: 14px;
-    padding: 0 20px 10px 20px; }
+    padding: 0 20px 10px 20px;
+    margin: 0; }
+  .post .category {
+    text-align: right;
+    font-size: 14px;
+    padding: 0 20px 10px 20px;
+    margin: 0; }
   .post .content {
     margin: 10px 20px 10px 20px;
     padding: 0 0 20px 0; }

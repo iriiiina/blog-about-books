@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: Книго-ориентированный блог
+title: Книго-ориентированный блог - событие
 ---
 
 <div class="posts">
 	{% for post in site.posts %}
-    {% if post.categories contains "event" %}
+    {% if post.categories contains "событие" %}
 	   <div class="post">
 		   <a href="{{ post.url }}" title="{{ post.title }}">
 			   <img class="preview-image" src="../assets/post-images/{{post.date | date: '%Y-%m-%d' }}/preview.jpg">

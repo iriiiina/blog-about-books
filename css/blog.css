@@ -31,14 +31,29 @@ footer {
   footer a {
     color: #CFD8DC;
     text-decoration: none; }
-  footer #github {
+  footer .icon {
     width: 30px;
-    fill: #CFD8DC; }
+    fill: #CFD8DC;
+    margin: 0 5px 0 5px; }
     @media screen and (min-width: 768px) {
-      footer #github {
+      footer .icon {
         transition: color 0.3s; }
-        footer #github:hover {
+        footer .icon:hover {
           fill: #FFC107; } }
+
+.categories {
+  text-align: center;
+  margin: 30px auto 10px auto; }
+  .categories .category {
+    margin: 0 10px 0 10px; }
+    .categories .category a {
+      text-decoration: none;
+      padding: 3px 15px 5px 15px;
+      border: 1px solid #212121;
+      border-radius: 20px;
+      transition: border-color 0.3s, color 0.3s; }
+      .categories .category a:hover {
+        border-color: #FFC107; }
 
 .posts {
   text-align: center;

@@ -31,13 +31,14 @@ footer {
   footer a {
     color: #CFD8DC;
     text-decoration: none; }
-  footer #github {
+  footer .icon {
     width: 30px;
-    fill: #CFD8DC; }
+    fill: #CFD8DC;
+    margin: 0 5px 0 5px; }
     @media screen and (min-width: 768px) {
-      footer #github {
+      footer .icon {
         transition: color 0.3s; }
-        footer #github:hover {
+        footer .icon:hover {
           fill: #FFC107; } }
 
 /*# sourceMappingURL=common.css.map */
