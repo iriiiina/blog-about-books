@@ -49,11 +49,13 @@ footer {
     .categories .category a {
       text-decoration: none;
       padding: 3px 15px 5px 15px;
+      line-height: 40px;
       border: 1px solid #212121;
       border-radius: 20px;
       transition: border-color 0.3s, color 0.3s; }
-      .categories .category a:hover {
-        border-color: #FFC107; }
+      @media screen and (min-width: 768px) {
+        .categories .category a:hover {
+          border-color: #FFC107; } }
 
 .posts {
   text-align: center;

@@ -8,11 +8,13 @@
     a
       text-decoration: none
       padding: 3px 15px 5px 15px
+      line-height: 40px
       border: 1px solid $color-dark-gray
       border-radius: 20px
       transition: border-color 0.3s, color 0.3s
-      &:hover
-        border-color: $color-orange
+      @media screen and (min-width: $break-small)
+        &:hover
+          border-color: $color-orange
 
 .posts
   text-align: center
