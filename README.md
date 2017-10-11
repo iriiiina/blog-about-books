@@ -1,4 +1,4 @@
-[![Licence](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Книго-ориентированный блог
 
