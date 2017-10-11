@@ -1,5 +1,4 @@
-[![Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) ![W3C CSS](http://jigsaw.w3.org/css-validator/images/vcss-blue)
-
+[![Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Книго-ориентированный блог
 
