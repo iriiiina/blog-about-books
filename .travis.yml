@@ -1,5 +1,0 @@
-install: gem install jekyll bundler
-
-branches:
-  only:
-  - master
