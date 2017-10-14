@@ -18,14 +18,14 @@
 		<link rel="icon" href="assets/images/favicon.ico">
 
 		<title>{{ page.title }}</title>
-		
+
 	</head>
 	<body>
 
 		{% include header.html %}
 
     <div class="back">
-      <a href="{{ site.url }}"><< Назад в блог</a>
+      <a href="{{ site.url }}">&lt;&lt; Назад в блог</a>
     </div>
 
     <div class="post">
@@ -41,11 +41,11 @@
 
     <div class="navigation">
       {% if page.previous.url %}
-      <a href="{{ page.previous.url }}"><< Предыдущий пост</a>
+      <a href="{{ page.previous.url }}">&lt;&lt; Предыдущий пост</a>
       {% endif %}
       <a href="{{ site.url }}">Назад в блог</a>
       {% if page.next.url %}
-      <a href="{{ page.next.url}}">Следующий пост >></a>
+      <a href="{{ page.next.url}}">Следующий пост &gt;&gt;</a>
       {% endif %}
     </div>
 
