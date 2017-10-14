@@ -2,6 +2,22 @@
 <html lang="ru_RUS">
 	<head>
 
+		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
+		<link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
+		<link rel="manifest" href="{{ site.url }}/manifest.json">
+
+		<title>{{ page.title }}</title>
+		<meta charset="UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description=" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+		<meta property="og:image" content="{{ site.url }}/assets/post-images/{{ page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
+		<meta property="og:locale" content="ru_RUS"/>
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107903881-1"></script>
 		<script>
@@ -11,15 +27,6 @@
 
 			gtag('config', 'UA-107903881-1');
 		</script>
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
-		<link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
-
-		<meta name="theme-color" content="#FFC107"/>
-
-		<title>{{ page.title }}</title>
 
 	</head>
 	<body>
