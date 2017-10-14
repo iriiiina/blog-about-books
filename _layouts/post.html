@@ -17,6 +17,8 @@
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
 		<link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
 
+		<meta name="theme-color" content="#FFC107"/>
+
 		<title>{{ page.title }}</title>
 
 	</head>
@@ -25,27 +27,29 @@
 		{% include header.html %}
 
     <div class="back">
-      <a href="{{ site.url }}">&lt;&lt; Назад в блог</a>
+      <a href="{{ site.url }}" title="Назад в блог">&lt;&lt; Назад в блог</a>
     </div>
 
-    <div class="post">
-      <h2>{{ page.title }}</h2>
+		<main>
+    	<div class="post">
+      	<h2>{{ page.title }}</h2>
 
-      <p class="date">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</p>
-			<p class="category">Категории: {{ page.categories | join: ", " }}</p>
+      	<p class="date">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</p>
+				<p class="category">Категории: {{ page.categories | join: ", " }}</p>
 
-      <div class="content">
-        {{ content }}
-      </div>
-    </div>
+      	<div class="content">
+        	{{ content }}
+      	</div>
+    	</div>
+		</main>
 
     <div class="navigation">
       {% if page.previous.url %}
-      <a href="{{ page.previous.url }}">&lt;&lt; Предыдущий пост</a>
+      <a href="{{ page.previous.url }}" title="Предыдущий пост">&lt;&lt; Предыдущий пост</a>
       {% endif %}
-      <a href="{{ site.url }}">Назад в блог</a>
+      <a href="{{ site.url }}" title="Назад в блог">Назад в блог</a>
       {% if page.next.url %}
-      <a href="{{ page.next.url}}">Следующий пост &gt;&gt;</a>
+      <a href="{{ page.next.url}}" title="Следующий пост">Следующий пост &gt;&gt;</a>
       {% endif %}
     </div>
 
