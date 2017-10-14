@@ -1,4 +1,4 @@
 name: Cognitio Liber | Книго-ориентированный блог
 markdown: kramdown
 url: http://book.irina-ivanova.eu
-permalink: /blog-about-books/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
