@@ -1,0 +1,25 @@
+{
+  "short_name": "Cognitio Liber",
+  "name": "Cognitio Liber | Книго-ориентированный блог",
+  "icons": [
+    {
+      "src": "assets/images/icon-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/images/icon-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#FFC107",
+  "theme_color": "#FFC107",
+  "display": "browser"
+}
