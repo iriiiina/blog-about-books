@@ -50,3 +50,32 @@
       margin: 0 50px 0 50px
       &:hover
         color: white
+
+.comments
+  padding: 20px 20px 20px 20px
+  margin: 40px auto 0 auto
+  width: 90%
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  @media screen and (min-width: $break-medium)
+    width: 40%
+  input
+    padding: 10px
+    border: 1px solid $color-light-gray
+    border-radius: 10px
+    width: 300px
+  textarea
+    border: 1px solid $color-light-gray
+    border-radius: 10px
+  .send-button
+    width: 100%
+    text-align: center
+    button
+      background-color: $color-orange
+      border: 1px solid $color-orange
+      border-radius: 10px
+      padding: 10px
+      font-size: 16px
+      cursor: pointer
+      @media screen and (min-width: $break-small)
+        &:hover
+          color: white

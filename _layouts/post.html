@@ -51,6 +51,20 @@
     	</div>
 		</main>
 
+		<div class="comments">
+			<form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
+  			<input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+  			<input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  			<p><label>Имя<br />
+					<input name="fields[name]" type="text"></label></p>
+  			<p><label>Е-майл<br />
+					<input name="fields[email]" type="email"></label></p>
+  			<p><label>Комментарий<br />
+					<textarea name="fields[message]" cols="70" rows="10"></textarea></label></p>
+  			<p class="send-button"><button type="submit">Отправить</button></p>
+			</form>
+		</div>
+
     <div class="navigation">
 			{% if page.next.url %}
       <a href="{{ page.next.url}}" title="Следующий пост">&lt;&lt; Следующий пост</a>
