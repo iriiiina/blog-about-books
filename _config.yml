@@ -2,3 +2,7 @@ name: Cognitio Liber | Книго-ориентированный блог
 markdown: kramdown
 url: http://book.irina-ivanova.eu
 permalink: /:year/:month/:day/:title
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

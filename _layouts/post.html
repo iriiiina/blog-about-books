@@ -6,6 +6,76 @@ layout: compress
 <html lang="ru_RUS">
 	<head>
 
+		<style>
+
+		@font-face {
+			font-family: Permian;
+			src: url("permian-sans-typeface.otf");
+		}
+		body {
+			font-family: Permian;
+			background-color: #fff;
+			color: #212121;
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #212121;
+		}
+		.header-image {
+			width: 100%;
+		}
+		.back {
+			margin: 20px 0 10px 100px;
+		}
+		.back a {
+			text-decoration: none;
+		}
+		.post {
+			width: 90%;
+			margin: 40px auto 0 auto;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		}
+		@media screen and (min-width: 1024px) {
+			.post {
+				width: 60%;
+			}
+		}
+		.post h2 {
+			text-align: center;
+			padding: 20px 0 20px 0;
+			color: #212121;
+		}
+		.post .date {
+			text-align: right;
+			font-size: 14px;
+			padding: 0 20px 10px 20px;
+			margin: 0;
+		}
+		.post .category {
+			text-align: right;
+			font-size: 14px;
+			padding: 0 20px 10px 20px;
+			margin: 0 0 0 0;
+		}
+		.post .content {
+			margin: 10px 20px 10px 20px;
+			padding: 0 0 20px 0;
+		}
+		@media screen and (min-width: 1024px) {
+			.post .content {
+				margin: 10px 100px 10px 100px;
+			}
+		}
+		.comments input {
+			padding: 10px;
+			border: 1px solid #CFD8DC;
+			border-radius: 10px;
+			width: 300px;
+		}
+		</style>
+
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
 		<link rel="manifest" href="{{ site.url }}/manifest.json">
 
@@ -27,16 +97,6 @@ layout: compress
 		<meta property="og:description" content="{{ page.excerpt | strip_html }}">
 		<meta property="og:image" content="{{ site.url }}/assets/post-images/{{ page.date | date: '%Y-%m-%d' }}/preview.jpg"/>
 		<meta property="og:locale" content="ru_RUS"/>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107903881-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-107903881-1');
-		</script>
 
 	</head>
 	<body>
