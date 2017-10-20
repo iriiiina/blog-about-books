@@ -1,12 +1,7 @@
 .DS_Store
 _site/
 css/.sass-cache
-css/common.css.map
-css/blog.css.map
-css/post.css.map
 _posts/2017-10-06-book-ripping.md
-_posts/2017-10-03-book-restoration-in-erm-2.md
 _posts/2017-10-02-book-restoration-in-erm-3.md
 assets/post-images/2017-10-06
-assets/post-images/2017-10-03
 assets/post-images/2017-10-02

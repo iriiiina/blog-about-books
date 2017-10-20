@@ -3,7 +3,6 @@
 	<head>
 
 		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
-		<link rel="stylesheet" type="text/css" href="{{ site.url }}/css/common.css">
 		<link rel="icon" href="{{ site.url }}/assets/images/favicon.ico">
 		<link rel="manifest" href="{{ site.url }}/manifest.json">
 
@@ -53,12 +52,12 @@
 		</main>
 
     <div class="navigation">
-      {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" title="Предыдущий пост">&lt;&lt; Предыдущий пост</a>
+			{% if page.next.url %}
+      <a href="{{ page.next.url}}" title="Следующий пост">&lt;&lt; Следующий пост</a>
       {% endif %}
       <a href="{{ site.url }}" title="Назад в блог">Назад в блог</a>
-      {% if page.next.url %}
-      <a href="{{ page.next.url}}" title="Следующий пост">Следующий пост &gt;&gt;</a>
+			{% if page.previous.url %}
+      <a href="{{ page.previous.url }}" title="Предыдущий пост">Предыдущий пост &gt;&gt;</a>
       {% endif %}
     </div>
 
