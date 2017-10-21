@@ -1,5 +1,5 @@
-task :default => [:jekyll_build]
+task :default => [:build]
 
-task :jekyll_build do
+task :build do
   `bundle exec jekyll build`
 end
