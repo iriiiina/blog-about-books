@@ -6,10 +6,10 @@
     text-decoration: none
 
 .post
-  width: 90%
   margin: 40px auto 0 auto
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  @media screen and (min-width: $break-medium)
+  width: 90%
+  @media screen and (min-width: $break-small)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     width: 60%
   h2
     text-align: center
@@ -52,20 +52,27 @@
         color: white
 
 .comments
-  padding: 20px 20px 20px 20px
+  padding: 20px 10px 20px 10px
   margin: 40px auto 0 auto
   width: 90%
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-  @media screen and (min-width: $break-medium)
-    width: 40%
+  @media screen and (min-width: $break-small)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    padding: 20px 20px 20px 20px
+    width: 550px
   input
     padding: 10px
     border: 1px solid $color-light-gray
     border-radius: 10px
-    width: 300px
+    width: 250px
+    @media screen and (min-width: $break-small)
+      width: 300px
   textarea
     border: 1px solid $color-light-gray
     border-radius: 10px
+    width: 270px
+    height: 150px
+    @media screen and (min-width: $break-small)
+      width: 500px
   .send-button
     width: 100%
     text-align: center

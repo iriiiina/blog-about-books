@@ -1,0 +1,9 @@
+<div class="navigation">
+  {% if page.next.url %}
+  <a href="{{ page.next.url}}" title="Следующий пост">&lt;&lt;&nbsp;Следующий&nbsp;пост</a>
+  {% endif %}
+  <a href="{{ site.url }}" title="Назад в блог">Назад&nbsp;в&nbsp;блог</a>
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url }}" title="Предыдущий пост">Предыдущий&nbsp;пост&nbsp;&gt;&gt;</a>
+  {% endif %}
+</div>

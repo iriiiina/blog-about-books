@@ -1,7 +1,10 @@
 .DS_Store
+sys/
 _site/
 css/.sass-cache
 _posts/2017-10-06-book-ripping.md
 _posts/2017-10-02-book-restoration-in-erm-3.md
+_posts/2017-10-01-at-suns-place.md
 assets/post-images/2017-10-06
 assets/post-images/2017-10-02
+assets/post-images/2017-10-01
