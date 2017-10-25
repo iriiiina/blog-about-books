@@ -3,4 +3,4 @@ rvm:
   - 2.3.3
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+  - bundle exec htmlproofer . --only-4xx --check-favicon --check-html
