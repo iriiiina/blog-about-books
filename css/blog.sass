@@ -19,16 +19,17 @@
 .posts
   text-align: center
   padding: 0 0 50px 0
+  display: flex
+  flex-flow: row wrap
+  justify-content: center
 
   .post
     width: 90%
     margin: 20px auto 20px auto
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-    display: inline-block
-    vertical-align: top
     @media screen and (min-width: $break-small)
       width: 30%
-      margin: 40px 5px 0 5px
+      margin: 20px 5px 0 5px
 
     .preview-image
       width: 100%
