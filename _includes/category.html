@@ -3,6 +3,7 @@
 	<span class="category"><a id="event" href="{{ site.url }}/category/event" title="Категория: событие">событие</a></span>
 	<span class="category"><a id="restoration" href="{{ site.url }}/category/restoration" title="Категория: реставрация">реставрация</a></span>
 	<span class="category"><a id="talk" href="{{ site.url }}/category/talk" title="Категория: разговор">разговор</a></span>
+	<span class="category"><a id="video" href="{{ site.url }}/category/video" title="Категория: видео">видео</a></span>
 </div>
 
 <script>
@@ -18,5 +19,8 @@ if (window.location.href == "{{ site.url }}/" || window.location.href == "{{ sit
 } else if (window.location.href == "{{ site.url }}/category/talk") {
   document.getElementById("talk").style.color = "#FFC107";
   document.getElementById("talk").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/video") {
+  document.getElementById("video").style.color = "#FFC107";
+  document.getElementById("video").style.borderColor = "#FFC107";
 }
 </script>

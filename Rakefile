@@ -28,7 +28,7 @@ task :test do
       puts "index.html: " + err.to_s
     end
   else
-    puts 'index.html is valid according to W3C'
+    puts "index.html is valid according to W3C"
   end
 end
 
@@ -45,7 +45,7 @@ task :test do
       puts  "blog.css: " + err.to_s
     end
   else
-    puts 'blog.css is valid according to W3C'
+    puts "blog.css is valid according to W3C"
   end
 
   filePost = File.dirname(__FILE__) + "/_site/css/post.css"
@@ -55,6 +55,6 @@ task :test do
       puts  "post.css: " + err.to_s
     end
   else
-    puts 'post.css is valid according to W3C'
+    puts "post.css is valid according to W3C"
   end
 end
