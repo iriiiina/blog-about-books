@@ -1,7 +1,6 @@
 @import common
 
 .categories
-  text-align: center
   margin: 30px 0 10px 0
   display: flex
   flex-flow: row wrap
@@ -54,10 +53,13 @@
             color: $color-orange
 
     .excerpt
-      margin: 10px 0 0 0
-      text-align: left
-      font-size: 15px
-      padding: 0 20px 0 20px
+      display: none
+      @media screen and (min-width: $break-small)
+        display: block
+        margin: 10px 0 0 0
+        text-align: left
+        font-size: 15px
+        padding: 0 20px 0 20px
 
     .date
       text-align: right
