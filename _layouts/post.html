@@ -41,9 +41,10 @@ layout: compress
 		<main>
     	<div class="post">
       	<h2>{{ page.title }}</h2>
-
-      	<p class="date">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</p>
-				<p class="category">Категории: {{ page.categories | join: ", " }}</p>
+				<div class="date-category">
+					<span>Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
+					<span>Категории: {{ page.categories | join: ", " }}</span>
+				</div>
 
       	<div class="content">
         	{{ content }}
