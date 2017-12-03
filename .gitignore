@@ -1,12 +1,11 @@
 .DS_Store
-sys/
-_site/
-css/.sass-cache
+.idea
+sys
+_site
 Gemfile.lock
 assets/post-images/preview.jpg
-_posts/2017-10-03-ted-videos.md
+
 _posts/2017-09-01-making-notebook-from-scratch.md
 _posts/2017-09-02-old-photos.md
-assets/post-images/2017-10-03
 assets/post-images/2017-09-01
 assets/post-images/2017-09-02

@@ -1,7 +1,0 @@
-jekyll:
-  image: jekyll/jekyll:pages
-  command: sh -c "bundle exec jekyll serve --watch --incremental"
-  ports:
-    - 4000:4000
-  volumes:
-    - /Users/irina/github/blog-about-books:/srv/jekyll
