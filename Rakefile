@@ -36,25 +36,16 @@ task :test do
   include W3CValidators
   @validator = CSSValidator.new
 
-  fileBlog = File.dirname(__FILE__) + "/_site/css/blog.css"
+  file = File.dirname(__FILE__) + "/_site/css/style.css"
   @validator.set_profile!("css3svg")
 
-  resultsBlog = @validator.validate_file(fileBlog)
-  if resultsBlog.errors.length > 0
-    resultsBlog.errors.each do |err|
-      puts  "blog.css: " + err.to_s
+  result = @validator.validate_file(file)
+  if result.errors.length > 0
+    result.errors.each do |err|
+      puts  "style.css: " + err.to_s
     end
   else
-    puts "blog.css is valid according to W3C"
+    puts "style.css is valid according to W3C"
   end
 
-  filePost = File.dirname(__FILE__) + "/_site/css/post.css"
-  resultsPost = @validator.validate_file(filePost)
-  if resultsPost.errors.length > 0
-    resultsPost.errors.each do |err|
-      puts  "post.css: " + err.to_s
-    end
-  else
-    puts "post.css is valid according to W3C"
-  end
 end
