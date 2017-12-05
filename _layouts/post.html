@@ -6,7 +6,11 @@ layout: compress
 <html lang="ru-RU">
 	<head>
 
-		<link asynch rel="stylesheet" type="text/css" href="{{ site.url }}/css/post.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style-768px.css"
+          media="screen and (min-device-width:768px)">
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style-1024px.css"
+          media="screen and (min-device-width:1024px)">
 
 		<link rel="manifest" href="{{ site.url }}/manifest.json">
 
@@ -34,19 +38,19 @@ layout: compress
 
 		{% include header.html %}
 
-    <div class="back">
-      <a href="{{ site.url }}" title="Назад в блог">&lt;&lt; Назад в блог</a>
+    <div id="back">
+      <a id="back-a" href="{{ site.url }}" title="Назад в блог">&lt;&lt; Назад в блог</a>
     </div>
 
 		<main>
-    	<div class="post">
+    	<div id="post">
       	<h2>{{ page.title }}</h2>
-				<div class="date-category">
-					<span>Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
-					<span>Категории: {{ page.categories | join: ", " }}</span>
+				<div id="post-info">
+					<span class="post-info-span">Опубликовано: {{ page.date | date: "%-d.%m.%Y" }}</span>
+					<span class="post-info-span">Категории: {{ page.categories | join: ", " }}</span>
 				</div>
 
-      	<div class="content">
+      	<div id="post-content">
         	{{ content }}
       	</div>
     	</div>
