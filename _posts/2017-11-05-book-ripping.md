@@ -49,4 +49,4 @@ date: 2017-11-05
 ![Фотография, иллюстрирующая пост]({{ site.url }}/assets/post-images/2017-11-05/9.jpg)
 
 А вот еще один красивый способ утилизировать старые книги.
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/ru/brian_dettmer_old_books_reborn_as_intricate_art" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/ru/brian_dettmer_old_books_reborn_as_intricate_art" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%;border:0;overflow:hidden;" allowfullscreen></iframe></div></div>
