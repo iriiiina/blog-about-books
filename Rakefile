@@ -56,7 +56,7 @@ task :test do
   @validator = NuValidator.new
 
   file = File.dirname(__FILE__) + "/_site/index.html"
-  @validator.validate_file(file)
+  results = @validator.validate_file(file)
 
   if results.errors.length > 0
     results.errors.each do |err|
