@@ -12,7 +12,7 @@ task :test do
     :assume_extension => true,
     :check_favicon => true,
     :check_html => true,
-    :file_ignore => "google409298bd12290ec3.html"
+    :file_ignore => ["google409298bd12290ec3.html"]
   }
   HTMLProofer.check_directory("./_site", options).run
 end
