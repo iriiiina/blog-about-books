@@ -21,8 +21,42 @@ task :test do
   include W3CValidators
   @validator = NuValidator.new
 
+  Dir.glob("./_site/category/*.html") do |cFile|
+    results = @validator.validate_file(cFile)
+
+    if results.errors.length > 0
+      results.errors.each do |err|
+        puts cFile + ": " + err.to_s
+      end
+    else
+      puts cFile + " is valid according to W3C"
+    end
+  end
+end
+
+task :test do
+  include W3CValidators
+  @validator = NuValidator.new
+
+  Dir.glob("./_site/2017/*/*/*") do |pFile|
+    results = @validator.validate_file(pFile)
+
+    if results.errors.length > 0
+      results.errors.each do |err|
+        puts pFile + ": " + err.to_s
+      end
+    else
+      puts pFile + " is valid according to W3C"
+    end
+  end
+end
+
+task :test do
+  include W3CValidators
+  @validator = NuValidator.new
+
   file = File.dirname(__FILE__) + "/_site/index.html"
-  results = @validator.validate_file(file)
+  @validator.validate_file(file)
 
   if results.errors.length > 0
     results.errors.each do |err|
