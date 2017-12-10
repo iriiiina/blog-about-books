@@ -1,5 +1,6 @@
 #!/bin/bash
 
-dir=$1
+dir=$1;
 
-sips -Z 700 $dir/*
+sips -Z 1000 $dir/*;
+sips -Z 400 $dir/preview.*;

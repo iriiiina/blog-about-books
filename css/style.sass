@@ -23,8 +23,18 @@ img
 a
   color: $color-dark-gray
 
-#header-image
-  width: 100%
+/* HEADER */
+
+header
+  min-width: 100%
+  font-family: "Times New Roman", Times, serif
+  background-color: $color-orange
+
+.header-letter
+  fill: rgb(255, 255, 255)
+
+#header-description
+  display: none
 
 /* CATEGORY */
 
@@ -46,8 +56,6 @@ a
 /* BLOG */
 
 #posts
-  text-align: center
-  padding: 0 0 50px 0
   display: flex
   flex-flow: row wrap
   justify-content: center
@@ -58,7 +66,7 @@ a
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 .preview-image
-  max-width: 400px
+  max-width: 100%
 
 .preview-title
   text-align: left
@@ -168,7 +176,7 @@ h2
 #navigation
   text-align: center
   padding: 20px 0 20px 0
-  margin: 30px auto 50px auto
+  margin: 30px auto 0 auto
   background-color: $color-orange
   width: 90%
 .navigation-a
@@ -182,6 +190,7 @@ h2
   width: 100%
   font-size: 15px
   padding: 30px 0 20px 0
+  margin: 50px 0 0 0
   display: flex
   flex-flow: column wrap
   align-items: center

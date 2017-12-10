@@ -10,6 +10,30 @@ $color-orange: #FFC107
     &:hover
       color: $color-orange
 
+  /* HEADER */
+
+  .header-letter
+    fill: rgb(253, 227, 167)
+    transition: transform 0.5s ease, fill 0.5s ease
+    -webkit-transition: transform 0.5s ease, fill 0.5s ease
+
+  header:hover .header-letter
+    transform: none
+    -webkit-transform: none
+    fill: rgb(255, 255, 255)
+
+  #header-description
+    display: block
+    fill: rgb(253, 227, 167)
+    transition: transform 0.5s ease, fill 0.5s ease, font-size 0.5s ease
+    -webkit-transition: transform 0.5s ease, fill 0.5s ease, font-size 0.5s ease
+
+  header:hover #header-description
+    transform: translate(100px,50px)
+    -webkit-transform: translate(100px,50px)
+    fill: rgb(255, 255, 255)
+    font-size: 7px
+
   /* CATEGORY */
 
   .category-a
