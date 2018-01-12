@@ -5,7 +5,7 @@ excerpt: Давно, в 2012 году, когда музей печати нах
 categories: типография
 date: 2017-12-25
 ---
-*Для полной картины можно прочитать еще и про [печатание деревянными литерами]({{ site.url }}/2018/01/11/making-spiral-notebook-with-wood-letters).*
+*Для полной картины можно прочитать еще и про [печатание деревянными литерами](http://book.irina-ivanova.eu/2018/01/11/making-spiral-notebook-with-wood-letters).*
 
 ---
 
