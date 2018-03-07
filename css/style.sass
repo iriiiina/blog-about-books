@@ -6,6 +6,7 @@ $font: Verdana, Geneva, sans-serif
 $color-dark-gray: #212121
 $color-light-gray: #CFD8DC
 $color-orange: #FFC107
+$color-blue: #0088CC
 
 body
   font-family: $font
@@ -209,13 +210,13 @@ h2
   position: fixed
   bottom: 40px
   right: 30px
-  animation-name: bunce
-  animation-duration: 20s
-  animation-iteration-count: infinite
+  -webkit-animation-name: bunce
+  -webkit-animation-duration: 20s
+  -webkit-animation-iteration-count: infinite
 
 .telegram-icon
   width: 30px
-  fill: #0088CC
+  fill: $color-blue
   &:hover
       fill: $color-orange
 
