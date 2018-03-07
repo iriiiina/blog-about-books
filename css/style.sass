@@ -203,3 +203,31 @@ h2
   width: 30px
   fill: $color-light-gray
   margin: 0 5px 0 5px
+
+/* TELEGRAM */
+.telegram
+  position: fixed
+  bottom: 40px
+  right: 30px
+  animation-name: bunce
+  animation-duration: 20s
+  animation-iteration-count: infinite
+
+.telegram-icon
+  width: 30px
+  fill: #0088CC
+  &:hover
+      fill: $color-orange
+
+@keyframes bunce
+  0%
+    bottom: 40px
+    right: 30px
+  1%
+    bottom: 50px
+  3%
+    bottom: 40px
+    right: 30px
+  100%
+    bottom: 40px
+    right: 30px
