@@ -5,7 +5,8 @@
 	<span class="category"><a class="category-a" id="talk" href="{{ site.url }}/category/talk" title="Категория: разговор">разговор</a></span>
 	<span class="category"><a class="category-a" id="video" href="{{ site.url }}/category/video" title="Категория: видео">видео</a></span>
 	<span class="category"><a class="category-a" id="typography" href="{{ site.url }}/category/typography" title="Категория: типография">типография</a></span>
-	<span class="category"><a class="category-a" id="history" href="{{ site.url }}/category/history" title="Категория: история">история</a></span>
+  <span class="category"><a class="category-a" id="history" href="{{ site.url }}/category/history" title="Категория: история">история</a></span>
+  <span class="category"><a class="category-a" id="tool" href="{{ site.url }}/category/tool" title="Категория: инструмент">инструмент</a></span>
 </div>
 
 <script>
@@ -30,5 +31,8 @@ if (window.location.href == "{{ site.url }}/" || window.location.href == "{{ sit
 } else if (window.location.href == "{{ site.url }}/category/history") {
   document.getElementById("history").style.color = "#FFC107";
   document.getElementById("history").style.borderColor = "#FFC107";
+} else if (window.location.href == "{{ site.url }}/category/tool") {
+  document.getElementById("tool").style.color = "#FFC107";
+  document.getElementById("tool").style.borderColor = "#FFC107";
 }
 </script>
