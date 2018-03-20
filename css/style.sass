@@ -2,7 +2,22 @@
 
 ---
 
-$font: Verdana, Geneva, sans-serif
+@font-face
+  font-family: 'Playfair Display SC'
+  font-style: normal
+  font-weight: 400
+  src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v7/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lb0MEOE1I4otKg.woff2) format('woff2')
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+
+@font-face
+  font-family: 'Alegreya Sans'
+  font-style: normal
+  font-weight: 400
+  src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'), url(https://fonts.gstatic.com/s/alegreyasans/v8/5aUz9_-1phKLFgshYDvh6Vwt7V5tvWdUhm97sg.woff2) format('woff2')
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+
+$font: 'Alegreya Sans'
+$font-header: 'Playfair Display SC'
 $color-dark-gray: #212121
 $color-light-gray: #CFD8DC
 $color-orange: #FFC107
@@ -12,8 +27,6 @@ body
   font-family: $font
   background-color: white
   color: $color-dark-gray
-  font-size: 18px
-  line-height: 20px
   margin: 0
   padding: 0
 
@@ -72,7 +85,7 @@ header
 .preview-title
   text-align: left
   padding: 10px 20px 0 20px
-  font-family: Georgia, serif
+  font-family: $font-header
   line-height: 25px
 
 .preview-title-a
@@ -123,8 +136,11 @@ h2
   padding: 20px 0 0 0
   color: $color-dark-gray
   margin: 10px 20px 0 20px
+  font-family: $font-header
+  font-size: 30px
+  font-weight: 100
   line-height: 35px
-  font-family: Georgia, serif
+  letter-spacing: -.003em
 #post-info
   display: flex
   justify-content: center
@@ -134,6 +150,10 @@ h2
 #post-content
   margin: 10px 10px 10px 10px
   padding: 0 0 20px 0
+  font-size: 18px
+  font-weight: 400
+  line-height: 25px
+  letter-spacing: -.003em
 
 /* COMMENTS */
 
@@ -220,15 +240,13 @@ h2
   &:hover
       fill: $color-orange
 
+
 @keyframes bunce
   0%
     bottom: 40px
-    right: 30px
   1%
     bottom: 50px
   3%
     bottom: 40px
-    right: 30px
   100%
     bottom: 40px
-    right: 30px
