@@ -3,19 +3,25 @@
 
   <url>
     <loc>http://book.irina-ivanova.eu/</loc>
-    <lastmod>2017-12-03</lastmod>
+    <lastmod>2018-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/event</loc>
-    <lastmod>2017-11-26</lastmod>
+    <lastmod>2017-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/category/history</loc>
+    <lastmod>2018-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/restoration</loc>
-    <lastmod>2017-11-19</lastmod>
+    <lastmod>2018-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -26,14 +32,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://book.irina-ivanova.eu/category/video</loc>
-    <lastmod>2017-12-03</lastmod>
+    <loc>http://book.irina-ivanova.eu/category/tool</loc>
+    <lastmod>2018-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+    <url>
+    <loc>http://book.irina-ivanova.eu/category/typography</loc>
+    <lastmod>2018-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://book.irina-ivanova.eu/category/typography</loc>
-    <lastmod>2017-11-12</lastmod>
+    <loc>http://book.irina-ivanova.eu/category/video</loc>
+    <lastmod>2017-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -88,6 +100,90 @@
   <url>
     <loc>http://book.irina-ivanova.eu/2017/12/03/ted-videos</loc>
     <lastmod>2017-12-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2017/12/10/book-binding-restoration</loc>
+    <lastmod>2017-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2017/12/18/estonian-literary-museum</loc>
+    <lastmod>2017-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2017/12/25/making-spiral-notebook</loc>
+    <lastmod>2017-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/01/01/old-photos-about-libraries</loc>
+    <lastmod>2018-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/01/11/making-spiral-notebook-with-wood-letters</loc>
+    <lastmod>2018-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/02/25/restoration-of-the-seven-storey-mountain-1</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/03/05/restoration-of-the-seven-storey-mountain-2</loc>
+    <lastmod>2018-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/03/12/making-flour-paste</loc>
+    <lastmod>2018-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/03/20/making-wheaten-flour-paste</loc>
+    <lastmod>2018-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/03/26/making-new-york-times-1</loc>
+    <lastmod>2018-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/04/02/making-new-york-times-2</loc>
+    <lastmod>2018-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/04/11/restoration-of-songbook-1903-1</loc>
+    <lastmod>2018-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/04/22/restoration-of-songbook-1903-2</loc>
+    <lastmod>2018-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/04/29/printing-wedding-invitations</loc>
+    <lastmod>2018-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
