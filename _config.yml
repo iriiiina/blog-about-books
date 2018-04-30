@@ -25,3 +25,7 @@ compress_html:
 safe: true
 timezone: "Europe/Tallinn"
 encoding: utf-8
+
+#Sitemap
+plugins:
+  - jekyll-sitemap
