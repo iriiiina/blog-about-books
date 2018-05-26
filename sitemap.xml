@@ -3,13 +3,13 @@
 
   <url>
     <loc>http://book.irina-ivanova.eu/</loc>
-    <lastmod>2018-05-20</lastmod>
+    <lastmod>2018-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/event</loc>
-    <lastmod>2017-12-18</lastmod>
+    <lastmod>2018-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -202,6 +202,12 @@
   <url>
     <loc>http://book.irina-ivanova.eu/2018/05/20/restoration-of-varsaoja-3</loc>
     <lastmod>2018-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/05/26/noora</loc>
+    <lastmod>2018-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
