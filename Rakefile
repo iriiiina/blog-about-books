@@ -38,7 +38,7 @@ task :test do
   include W3CValidators
   @validator = NuValidator.new
 
-  Dir.glob("./_site/2017/*/*/*") do |pFile|
+  Dir.glob("./_site/201*/*/*/*") do |pFile|
     results = @validator.validate_file(pFile)
 
     if results.errors.length > 0
