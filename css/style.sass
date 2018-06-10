@@ -20,6 +20,7 @@ $font: "Trebuchet MS", Helvetica, sans-serif
 $font-header: "Playfair Display SC"
 $color-dark-gray: #212121
 $color-light-gray: #CFD8DC
+$color-gray: #808080
 $color-orange: #FFC107
 $color-blue: #0088CC
 
@@ -106,7 +107,6 @@ header
   margin: 20px 0 10px 100px
 #back-a
   text-decoration: none
-
 hr
   display: block
   height: 1px
@@ -114,12 +114,27 @@ hr
   border-top: 1px solid $color-light-gray
   margin: 1em 0
   padding: 0
-
+.first-paragraph
+  &:first-letter
+    float: left
+    font-size: 70pt
+    line-height: 50pt
+    padding-right: 5px
+    font-family: $font-header
+.highlight-paragraph
+  color: $color-gray
+  font-size: 18pt
+  line-height: 18pt
+  float: right
+  padding: 10px 0 10px 10px
+  margin: 0 0 10px 10px
+  width: 200px
+  border-top: 1px solid $color-orange
+  border-bottom: 1px solid $color-orange
 #post
   margin: 40px auto 0 auto
   line-height: 24px
   max-width: 1000px
-
   img
     max-width: 100vw
     display: block
@@ -130,7 +145,15 @@ hr
   td
     padding: 10px 30px 10px 0
     border-bottom: 1px solid $color-light-gray
-
+  a
+    color: $color-blue
+    &:hover
+      color: $color-orange
+  blockquote
+    color: $color-gray
+    font-style: italic
+    border-left: 1px solid $color-blue
+    padding-left: 20px
 h2
   text-align: center
   padding: 20px 0 0 0
@@ -141,6 +164,8 @@ h2
   font-weight: 100
   line-height: 35px
   letter-spacing: -.003em
+h3
+  font-family: $font-header
 #post-info
   display: flex
   justify-content: center
