@@ -4,7 +4,7 @@ email: irina.ivanova@protonmail.com
 description: >-
   Блог про книгу, как физический объект
 baseurl: ""
-url: http://book.irina-ivanova.eu
+url: https://book.irina-ivanova.eu
 permalink: /:year/:month/:day/:title
 github_username: iriiiina
 
