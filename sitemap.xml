@@ -3,13 +3,13 @@
 
   <url>
     <loc>http://book.irina-ivanova.eu/</loc>
-    <lastmod>2018-08-24</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/event</loc>
-    <lastmod>2018-05-26</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/talk</loc>
-    <lastmod>2018-08-24</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -250,6 +250,12 @@
   <url>
     <loc>http://book.irina-ivanova.eu/2018/08/24/instagram</loc>
     <lastmod>2018-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://book.irina-ivanova.eu/2018/09/07/the-illuminated-manuscripts-of-medieval-europe</loc>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
