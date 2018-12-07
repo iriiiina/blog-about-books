@@ -1,4 +1,4 @@
-[![Licence](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Travis CI](https://travis-ci.org/iriiiina/blog-about-books.svg?branch=master)](https://travis-ci.org/iriiiina/blog-about-books)
+[![Licence](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Travis CI](https://travis-ci.org/iriiiina/blog-about-books.svg?branch=master)](https://travis-ci.org/iriiiina/blog-about-books)
 
 # Cognitio Liber | Книго-ориентированный блог
 
