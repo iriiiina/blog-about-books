@@ -12,11 +12,17 @@
   </form>
 
   <div id="comment">
-    {% for comment in site.data.comments.[page.slug] %}
-      <hr>
-      <p class="comment-name">{{ comment[1].name }}</p>
-      <p class="comment-date">{{ comment[1].date | date: "%-d.%m.%Y" }}</p>
-      <p class="comment-message">{{ comment[1].message | strip_html }}</p>
-    {% endfor %}
+    {% assign numberOfComments = (site.data.comments[page.slug] | size) %}
+    {% if numberOfComments > 0 %}
+
+      {% assign comments = site.data.comments[page.slug] | sort %}
+      {% for comment in comments %}
+        <hr>
+        <p class="comment-name">{{ comment[1].name }}</p>
+        <p class="comment-date">{{ comment[1].date | date: "%-d.%m.%Y %T" }}</p>
+        <p class="comment-message">{{ comment[1].message | strip_html }}</p>
+      {% endfor %}
+
+    {% endif %}
   </div>
 </div>
