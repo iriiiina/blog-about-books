@@ -3,13 +3,13 @@
 
   <url>
     <loc>http://book.irina-ivanova.eu/</loc>
-    <lastmod>2019-02-16</lastmod>
+    <lastmod>2019-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/event</loc>
-    <lastmod>2019-02-16</lastmod>
+    <lastmod>2019-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,7 +33,7 @@
   </url>
   <url>
     <loc>http://book.irina-ivanova.eu/category/tool</loc>
-    <lastmod>2018-12-02</lastmod>
+    <lastmod>2019-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -274,6 +274,12 @@
   <url>
     <loc>https://book.irina-ivanova.eu/2019/02/16/cards-on-adana-with-photopolymer-plates</loc>
     <lastmod>2019-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://book.irina-ivanova.eu/2019/05/26/linocut-workshop</loc>
+    <lastmod>2019-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
