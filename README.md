@@ -4,7 +4,7 @@
 
 [http://book.irina-ivanova.eu](http://book.irina-ivanova.eu)
 
-Личный блог [Ирины Ивановой](https://irina-ivanova.gitlab.io) про книгу, как физический объект (с обложкой, переплётом, форзацем и всё такое).
+Личный блог [Ирины Ивановой](https://irina-ivanova.eu) про книгу, как физический объект (с обложкой, переплётом, форзацем и всё такое).
 
 [irina.ivanova@protonmail.com](mailto:irina.ivanova@protonmail.com)
 
